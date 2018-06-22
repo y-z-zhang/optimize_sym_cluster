@@ -1,5 +1,5 @@
 %% A simulated annealing algorithm to improve the synchronizability 
-%% of networks through minimal link removal 
+%% of networks through minimal link removal
 %%                      by Yuanzhao Zhang (yuanzhao@u.northwestern.edu)
 
 %% adjacency matrix of the original network

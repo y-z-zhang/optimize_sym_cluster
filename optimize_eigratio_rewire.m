@@ -1,5 +1,5 @@
-%% A simulated annealing algorithm to improve the synchronizability 
-%% of networks through minimal link rewiring 
+%% A simulated annealing algorithm to improve the synchronizability
+%% of networks through minimal link rewiring
 %%                      by Yuanzhao Zhang (yuanzhao@u.northwestern.edu)
 
 %% adjacency matrix of the original network

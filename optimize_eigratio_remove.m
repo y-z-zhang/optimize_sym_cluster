@@ -1,4 +1,4 @@
-%% A simulated annealing algorithm to improve the synchronizability 
+%% A simulated annealing algorithm to improve the synchronizability
 %% of networks through minimal link removal
 %%                      by Yuanzhao Zhang (yuanzhao@u.northwestern.edu)
 

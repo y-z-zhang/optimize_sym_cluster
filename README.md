@@ -13,4 +13,4 @@ It includes:
   
 3. Network1.txt
 
-  Adjacency matrix of the 16-node network used as an example in the two algorithms.
+  Adjacency matrix of the 16-node network used as an example in the two implementations.

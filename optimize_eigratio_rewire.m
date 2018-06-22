@@ -17,11 +17,11 @@ r_original = eigv(end)/eigv(2)
 %% target value of the eigen-ratio
 r_target = r_original/2 + .5
 
-%% number of independent simulated annealings to be performed
+%% number of independent simulated annealings to be performed)
 N = 5*1e4;
-%% m records the number of links rewired before the target eigen-ratio is reached at each run
+%% m records the number of links rewired before the target eigen-ratio is reached at each run)
 m = zeros(1,N);
-% inverse temperature used in simulated annealings (different for each run)
+%% inverse temperature used in simulated annealings (different for each run)
 Beta = linspace(50,500,N);
 
 %% do N independent simulated annealings

@@ -1,5 +1,5 @@
 # optimize_sym_cluster
-This is a simulated annealing algorithm to improve network synchronizability through minimal link rewiring or link removal.
+This is a simulated annealing algorithm to improve network synchronizability through minimal link rewiring, removal, or addition.
 
 It includes:
 
@@ -11,6 +11,10 @@ It includes:
 
   Matlab implementation of a simulated annealing algorithm that optimizes network synchronizability through minimal link removal.
   
-3. Network1.txt
+3. optimize_eigratio_add.m
 
-  Adjacency matrix of the 16-node network used as an example in the two implementations.
+  Matlab implementation of a simulated annealing algorithm that optimizes network synchronizability through minimal link addition.
+  
+4. Network1.txt
+
+  Adjacency matrix of the 16-node network used as an example in the three implementations.

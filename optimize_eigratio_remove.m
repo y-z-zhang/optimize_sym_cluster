@@ -43,6 +43,11 @@ for i = 1:N
         lap = diag(rowsum) - aij;
         % next line requires newer version of MATLAB
         eigv = sort(eig(lap),'ComparisonMethod','real');
+        % if the smallest nontrival eigenvalue becomes zero, exit loop
+        if abs(eigv(2))<1e-5
+           m(i) = Inf;
+           break
+        end
         r_new = real(eigv(end))/real(eigv(2));
         % energy is negative if the eigen-ratio is improved by removal
         energy = r_new/min(r_original,r_current)-1;
@@ -52,8 +57,9 @@ for i = 1:N
             adj = aij;
             r_current = r_new;
             m(i) = m(i)+num_rem;
-            % if more than M removals have been performed, abort this run
-            if m(i) > M
+            % if more than M-5 removals have been performed, abort this run
+            if m(i) > M-5
+                m(i) = Inf;
                 break
             end
         end

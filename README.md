@@ -6,7 +6,7 @@ J. D. Hart, Y. Zhang, R. Roy and A. E. Motter, Topological Control of Synchroniz
 
 https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.058301
 
-It includes:
+This repository includes:
 
 1. optimize_eigratio_rewire.m
 

@@ -2,7 +2,8 @@ This is a simulated annealing algorithm to improve network synchronizability thr
 
 The algorithm was developed for the paper listed below:
 
-J. D. Hart, Y. Zhang, R. Roy and A. E. Motter, Topological Control of Synchronization Patterns: Trading Symmetry for Stability, Phys. Rev. Lett. 122, 058301 (2019)
+J. D. Hart, Y. Zhang, R. Roy and A. E. Motter, Topological Control of Synchronization Patterns: Trading Symmetry for Stability, Phys. Rev. Lett. 122, 058301 (2019).
+
 https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.058301
 
 It includes:

@@ -21,7 +21,7 @@ It includes:
   
 4. Network1.txt
 
-  Adjacency matrix of the 16-node network used as an example in the three implementations.
+  Adjacency matrix of the 16-node network used as an example in all three programs.
   
   
-All three programs can be run directly in Matlab. One can customize the initial network by supplying the adjacency matrix of the network in a text file. 
+All three programs can be run directly in Matlab. One can customize the initial network structure by supplying the adjacency matrix of the network in a text file. 

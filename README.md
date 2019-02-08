@@ -1,4 +1,3 @@
-# optimize_sym_cluster
 This is a simulated annealing algorithm to improve network synchronizability through minimal link rewiring, removal, or addition.
 
 The algorithm was developed for the paper listed below:

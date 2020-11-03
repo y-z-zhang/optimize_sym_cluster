@@ -6,15 +6,15 @@ J. D. Hart, Y. Zhang, R. Roy and A. E. Motter, Topological Control of Synchroniz
 
 This repository includes:
 
-1. optimize_eigratio_rewire.m
+1. `optimize_eigratio_rewire.m`
 
   MATLAB implementation of a simulated annealing algorithm that optimizes network synchronizability through minimal link rewiring.
 
-2. optimize_eigratio_remove.m
+2. `optimize_eigratio_remove.m`
 
   MATLAB implementation of a simulated annealing algorithm that optimizes network synchronizability through minimal link removal.
 
-3. optimize_eigratio_add.m
+3. `optimize_eigratio_add.m`
 
   MATLAB implementation of a simulated annealing algorithm that optimizes network synchronizability through minimal link addition.
 
